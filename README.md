@@ -123,9 +123,9 @@ Ryhmän tehtävissä voidaan lisäksi tallentaa:
 ## Käynnistys paikallisesti
 
 ```
-bash
 1. Asenna riippuvuudet:
 
+bash
 npm install
 
 2. Lisää projektin juureen .env-tiedosto:
