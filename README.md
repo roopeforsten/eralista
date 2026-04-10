@@ -6,8 +6,10 @@ Sovellus toteutettiin ennakkotehtävänä TODO-appin vaatimusten pohjalta. Halus
 
 Sovellus toimii sekä mobiilissa (Expo / iOS Simulator) että webissä.
 
-Testaa:
-👉 https://eralista.vercel.app/
+## Demo
+
+Testaa sovellusta täällä:  
+[https://eralista.vercel.app/]
 
 ## Miksi tämä näkökulma valittiin
 
@@ -118,21 +120,19 @@ Ryhmän tehtävissä voidaan lisäksi tallentaa:
 - kuka tekee tehtävää
 - mikä on tehtävän tila
 
-## Tulevat kehitysideat
+## Käynnistys paikallisesti
 
-- Push-notifikaatiot ryhmän tehtävistä
-- Offline-tuki
+1. Asenna riippuvuudet:
 
-## Kuvakaappaukset
+```bash
+npm install
 
-### Kirjautuminen
+2. Lisää projektin juureen .env-tiedosto:
+EXPO_PUBLIC_SUPABASE_URL=
+EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY=
 
-![Kirjautuminen](./screenshots/kirjautuminen.png)
-
-### Etusivu
-
-![Etusivu](./screenshots/etusivu.png)
-
-### Ryhmät
-
-![Ryhmät](./screenshots/ryhmat.png)
+3. Käynnistä projekti:
+npx expo start
+	web: w
+	iOS: i
+```
