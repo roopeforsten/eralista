@@ -2,11 +2,16 @@
 
 JahtiLista on Expo Router + Supabase -pohjainen tehtäväsovellus, joka on suunnattu metsästysseurojen ja jahtipäivän valmisteluiden hallintaan.
 
-Sovellus toteutettiin ennakkotehtävänä TODO-appin vaatimusten pohjalta. Halusin tuoda tehtävään mukaan henkilökohtaisen näkökulman, joten valitsin käyttökontekstiksi metsästysseurat. Tällä tavalla perinteinen todo-sovellus sai käytännöllisemmän käyttötarkoituksen: tehtäviä voidaan hallita sekä henkilökohtaisesti että ryhmänä, mikä sopii hyvin jahtipäivän valmisteluihin.
+Sovellus toteutettiin ennakkotehtävänä TODO-appin vaatimusten pohjalta. Halusin tuoda tehtävään mukaan henkilökohtaisen näkökulman, joten valitsin käyttökontekstiksi metsästysseurat. Tällä tavalla perinteinen todo-sovellus sai käytännöllisemmän käyttötarkoituksen: tehtäviä voidaan hallita sekä henkilökohtaisesti että ryhmänä, mikä sopii hyvin metsästysseuroille jahtipäivän valmisteluihin.
+
+Sovellus toimii sekä mobiilissa (Expo / iOS Simulator) että webissä.
+
+Testaa:
+👉
 
 ## Miksi tämä näkökulma valittiin
 
-Valitsin metsästysseura-kontekstin, koska halusin tehdä tehtävästä persoonallisemman mutta silti täysin tehtävänannon mukaisen. Perinteinen todo-sovellus on teknisesti toimiva, mutta metsästysseuran käyttöön suunnattu ratkaisu toi mukaan aidon käyttötapauksen:
+Valitsin metsästysseura-kontekstin, koska halusin tehdä tehtävästä persoonallisemman mutta silti tehtävänannon mukaisen. Perinteinen todo-sovellus on teknisesti toimiva, mutta metsästysseuran käyttöön suunnattu ratkaisu toi mukaan aidon käyttötapauksen:
 
 - tehtäviä voidaan tehdä yksin tai yhdessä
 - ryhmän jäsenet näkevät yhteiset tehtävät
@@ -113,10 +118,21 @@ Ryhmän tehtävissä voidaan lisäksi tallentaa:
 - kuka tekee tehtävää
 - mikä on tehtävän tila
 
-## Käynnistys paikallisesti
+## Tulevat kehitysideat
 
-1. Asenna riippuvuudet
+- Push-notifikaatiot ryhmän tehtävistä
+- Offline-tuki
 
-```bash
-npm install
-```
+## Kuvakaappaukset
+
+### Kirjautuminen
+
+![Kirjautuminen](./screenshots/kirjautuminen.png)
+
+### Etusivu
+
+![Etusivu](./screenshots/etusivu.png)
+
+### Ryhmät
+
+![Ryhmät](./screenshots/ryhmat.png)
